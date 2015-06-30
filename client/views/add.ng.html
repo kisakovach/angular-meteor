@@ -16,8 +16,8 @@
       <option value=2>Female</option>
      </select>
     </div>
-    <p><label><input type="checkbox" ng-model="new.notification"> Enable e-mail notifications</label></p>
-    <p><button type="submit" class="btn btn-primary" ng-click="users.push(new);new=''">post</button></p>
+    <p><label><input type="checkbox" ng-model="new.notification" checked> Enable e-mail notifications</label></p>
+    <p><button class="btn btn-primary" ng-click="add();list();">post</button></p>
   <!--  <p><button type="submit" class="btn btn-primary" ng-show="!isEdit" ng-click="add('new')">post</button></p>
     <p><button type="submit" class="btn btn-primary" ng-show="isEdit"  ng-click="add('edit')">post</button></p>
   -->
